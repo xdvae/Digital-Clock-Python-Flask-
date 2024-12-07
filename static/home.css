@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+.screen{
+    height: 1028px;
+    width: 99.8%;
+    /* border: 1px solid red; */
+    display: block;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: block;
+}
+.Dark_mode_btn_1{
+    height: 35px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.Dark_mode_btn_1:hover{
+    cursor: pointer;
+    box-shadow: 0px 30px 100px black;
+}
+.Dark_mode_btn_2{
+    height: 35px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.Dark_mode_btn_2:hover{
+    cursor: pointer;
+    box-shadow: 0px 30px 100px rgb(255, 255, 255);
+}
+.clock{
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid green; */
+    margin: auto;
+    margin-top: 180px;
+    display: flex;
+    padding: 15px;
+}
+.search-bar{
+    height: 80px;
+    width: 800px;
+    /* border: 1px solid hotpink; */
+    margin: auto;
+    margin-top: 20px;
+}
+.c-box{
+    height: 400px;
+    width: 280px;
+    /* border: 1px solid rgb(208, 0, 255); */
+    margin: auto;
+    display: block;
+}
+.am-pm{
+    height: 50px;
+    width: 80px;
+    /* border: 1px solid navy; */
+    margin-top: 350px;
+}
+.c-box h1{
+    font-size: 170px;
+    text-align: center;
+    margin-top: 100px;
+}
+.am-pm-text{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 900;
+}
