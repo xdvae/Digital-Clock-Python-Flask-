@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    <script src="{{ url_for('static', filename='home.js') }}"></script>
+</head>
+<body id="body">
+    <div class="screen">
+        <div class="nav">
+            <button class="Dark_mode_btn_1" onclick="set_Dark_Mode()" id="set_Dark_Mode">Set Dark Mode</button>
+        </div>
+        <div class="clock">
+            <div class="c-box hour">
+                <h1 class="hour" id="hour">
+                    
+                </h1>
+            </div>
+            <div class="c-box min">
+                <h1 class="min" id="min">
+                    
+                </h1>
+            </div>
+            <div class="c-box sec">
+                <h1 class="sec" id="sec">
+                    
+                </h1>
+            </div>
+            <div class="am-pm">
+                <h1 class="am-pm-text" id="am-pm-text">
+                    
+                </h1>
+            </div>
+        </div>
+        <div class="search-bar"></div>
+
+    </div>
+</body>
+</html>
