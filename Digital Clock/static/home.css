@@ -26,10 +26,10 @@ body{
     margin-top: 20px;
     transition: all 0.3s ease-in-out;
 }
-.Dark_mode_btn_1:hover{
+/* .Dark_mode_btn_1:hover{
     cursor: pointer;
     box-shadow: 0px 30px 100px black;
-}
+} */
 .Dark_mode_btn_2{
     height: 35px;
     width: 120px;
@@ -40,10 +40,10 @@ body{
     margin-top: 20px;
     transition: all 0.3s ease-in-out;
 }
-.Dark_mode_btn_2:hover{
+/* .Dark_mode_btn_2:hover{
     cursor: pointer;
     box-shadow: 0px 30px 100px rgb(255, 255, 255);
-}
+} */
 .clock{
     height: 400px;
     width: 1200px;
@@ -82,4 +82,44 @@ body{
     margin-top: 10px;
     margin-left: 10px;
     font-weight: 900;
+}
+@media (max-width: 600px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .screen{
+        height: 41rem;
+        /* border: 1px solid red; */
+    }
+    .Dark_mode_btn_1, .Dark_mode_btn_2 {
+        width: 40%;
+        margin:10px auto;
+        margin-left: 7.5rem;
+    }
+
+    .clock {
+        width: 91%;
+        margin-top: 0rem;
+        /* border: 1px solid black; */
+    }
+
+    .search-bar {
+        height: 10rem;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .c-box {
+        height: 10rem;
+        width: 100%;
+        /* border: 1px solid yellow; */
+    }
+
+    .c-box h1 {
+        font-size: 12vw;
+    }
+    .am-pm{
+        margin-top: 16rem;
+    }
 }
