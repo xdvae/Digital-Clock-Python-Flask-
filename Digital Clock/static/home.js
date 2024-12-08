@@ -3,8 +3,8 @@ function Get_time(){
     .then(response => response.json()) 
     .then(data => { 
         console.log(data.hour);
-        document.getElementById('hour').innerText = data.hour;
-        document.getElementById('min').innerText = data.min;
+        document.getElementById('hour').innerText = data.hour + ':';
+        document.getElementById('min').innerText = data.min + ':';
         document.getElementById('sec').innerText = data.sec;
         document.getElementById('am-pm-text').innerText = data.am_pm;
 
