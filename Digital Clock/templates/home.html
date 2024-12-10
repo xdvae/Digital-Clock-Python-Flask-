@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="{{ url_for('static', filename='home.js') }}"></script>
 </head>
 <body id="body">
@@ -13,6 +14,11 @@
             <button class="Dark_mode_btn_1" onclick="set_Dark_Mode()" id="set_Dark_Mode">Set Dark Mode</button>
         </div>
         <div class="clock">
+            <div class="country-box">
+                <h1 class="current-country-name" id="current-country-name">
+                    Current Timezone: Local
+                </h1>
+            </div>
             <div class="c-box hour">
                 <h1 class="hour" id="hour">
                     
@@ -34,7 +40,12 @@
                 </h1>
             </div>
         </div>
-        <div class="search-bar"></div>
+        <div class="search-bar">
+            <div class="search-bar-line">
+            <input type="text" class="search-bar-input" id="search-bar-input" placeholder="Enter a city name (eg. Tokyo, Paris..)">
+            <button class="search-btn"><i class="fa fa-search" onclick="update_city_value()"></i></button>
+        </div>
+        </div>
 
     </div>
 </body>
