@@ -5,7 +5,7 @@ body{
     transition: all 0.3s ease-in-out;
 }
 .screen{
-    height: 1028px;
+    height: 50rem;
     width: 99.8%;
     /* border: 1px solid red; */
     display: block;
@@ -47,11 +47,16 @@ body{
 .clock{
     height: 400px;
     width: 1200px;
-    /* border: 1px solid green; */
+    /* border: 1px solid red; */
     margin: auto;
-    margin-top: 180px;
-    display: flex;
-    padding: 15px;
+    margin-top: 105px;
+    display: block;
+    /* padding: 15px; */
+}
+.country-box{
+    height: 35px;
+    /* border: 1px solid rgb(147, 58, 203); */
+    width: 100%;
 }
 .search-bar{
     height: 80px;
@@ -60,23 +65,85 @@ body{
     margin: auto;
     margin-top: 20px;
 }
+.search-bar-input{
+    height: 40px;
+    width: 500px;
+    /* margin-top: 1rem; */
+    /* margin-left: 9rem;
+    border-radius: 15px; */
+    font-size: large;
+    /* padding-left: 10px;  */
+    border: none;
+    outline: none;
+}
+.search-bar-line{
+    height: 40px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    padding-left: 10px;
+    background-color: white;
+}
+.search-btn{
+    height: 30px;
+    width: 70px;
+    /* background-color: white; */
+    border: none;
+    font-size: x-large;
+    text-align: right;
+    -webkit-background-clip: text;
+    animation: search_text_color 10s linear infinite;
+    transition: all 0.5s ease-in-out;
+    
+}
+.search-btn:hover{
+    cursor: pointer;
+}
+.search-btn:hover{
+    color: aliceblue;
+}
+
+@keyframes search_text_color {
+    0%{
+        color: hotpink;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: aquamarine;
+    }
+    
+}
 .c-box{
-    height: 400px;
+    height: 300px;
     width: 280px;
-    /* border: 1px solid rgb(208, 0, 255); */
-    margin: auto;
-    display: block;
+    border: none;
+    /* margin: auto; */
+    display: inline-block;
+    margin-left: 5rem;
 }
 .am-pm{
     height: 50px;
     width: 80px;
     /* border: 1px solid navy; */
-    margin-top: 350px;
+    margin-top: 310px;
+    /* border: 1px solid blue; */
+    float: right;
 }
 .c-box h1{
     font-size: 170px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
+}
+.current-country-name {
+    font-size: 20px;
+    margin-left: 15px;
 }
 .am-pm-text{
     margin-top: 10px;
