@@ -1,0 +1,15 @@
+Hello everyone, this is my little project and im here to tell you how u can run this on your pc.
+
+STEPS - 
+1. Install python.
+2. Install Flask in python (use : "pip install flask" in python terminal).
+3. Install Request library from pip (use : "pip install requests" in python terminal).
+3. Install Pytz library from pip (use : "pip install pytz" in python terminal).
+
+Clone/Download the files: 
+
+  CSS/JS file should be in the "static" folder.
+  HTML file should be in the "templates" folder.
+
+Run the python code "DigitalClock.py" and in terminal ctrl + click the "Running on http://192.168.1.7:5000".
+That should open it in the browser.
